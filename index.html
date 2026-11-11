@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado pela Compra! - Calculadora de Cronograma Profissional</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --primary: #0078d4;
+            --primary-hover: #005a9e;
+            --success: #28a745;
+            --success-hover: #218838;
+            --dark: #201f1e;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0078d4 30%, #7b2cbf 100%);
+            background-attachment: fixed;
+            color: var(--dark);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            color: #ffffff;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+            color: rgba(255, 255, 255, 0.92);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 16px 32px;
+            font-size: 1.15rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+            cursor: pointer;
+            border: none;
+            font-family: inherit;
+        }
+
+        .thank-you-section {
+            background: #ffffff;
+            padding: 55px 35px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            max-width: 720px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .badge-success {
+            display: inline-block;
+            background-color: #e6f4ea;
+            color: var(--success);
+            font-weight: bold;
+            font-size: 0.95rem;
+            padding: 6px 16px;
+            border-radius: 50px;
+            margin-bottom: 20px;
+        }
+
+        .thank-you-section h2 {
+            font-size: 2.1rem;
+            margin-bottom: 14px;
+            color: var(--dark);
+        }
+
+        .thank-you-section .subtitle {
+            color: #555555;
+            font-size: 1.05rem;
+            max-width: 540px;
+            margin: 0 auto 35px auto;
+        }
+
+        .action-card {
+            background: #faf9f8;
+            border: 2px solid #edebe9;
+            border-radius: 12px;
+            padding: 35px 25px;
+            max-width: 440px;
+            margin: 0 auto;
+            transition: border-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .action-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-4px);
+        }
+
+        .action-card h3 {
+            font-size: 1.45rem;
+            color: var(--primary);
+            margin-bottom: 12px;
+        }
+
+        .action-card p {
+            color: #555555;
+            font-size: 0.95rem;
+            margin-bottom: 28px;
+        }
+
+        .btn-download {
+            background-color: var(--success);
+            color: #ffffff;
+            width: 100%;
+            box-shadow: 0 4px 10px rgba(40, 167, 69, 0.25);
+        }
+
+        .btn-download:hover {
+            background-color: var(--success-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 14px rgba(40, 167, 69, 0.35);
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Calculadora de Cronograma Escolar Profissional</h1>
+            <p>Seu pagamento foi confirmado! Agradecemos pela confiança no nosso software.</p>
+        </header>
+
+        <section class="thank-you-section">
+            <div class="badge-success">✅ Compra Aprovada</div>
+            <h2>Obrigado por adquirir a Licença Vitalícia!</h2>
+            <p class="subtitle">
+                Agora você já tem o acesso permanente ao sistema. Clique no botão abaixo para acessar a sua Chave.
+            </p>
+            
+            <div class="action-card">
+                <h3>📦 Acesso ao Software</h3>
+                <p>
+                    Clique abaixo para conferir a sua Chave de Licença.
+                </p>
+                <a href="https://www.dropbox.com/scl/fi/6fgjzifb5vkezxgnyn7rl/CHAVE-VITALICIA.txt?rlkey=eohfq1eesampnfj8k80n5o7sq&st=sm7bqgqf&dl=0ag1t&dl=1" class="btn btn-download" target="_blank" rel="noopener noreferrer">
+                    Baixar a minha Chave Vitalícia
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <p>Versão 1.0.5 | Seguro e Verificado contra vírus.</p>
+            <p>&copy; 2026 Lucas Vicente - LisanVaught Software - LVS. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
